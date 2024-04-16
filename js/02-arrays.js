@@ -12,3 +12,12 @@ console.log(alunos[0]);//William
 const hobby = ["Videogame","Música","Tecnologia", "Filmes", "Comida", "Animes", "Séries"]
 
 console.log(`Sou uma pessoa que gosta muito de ${hobby[1]}, e música e apaixonado por tecnologia, nas horas vagas gosto de assistir filmes e series e animes com um pouco de ${hobby[4]}`);
+
+/*Matriz (array com mais de uma dimensão) */
+
+const tecnologia1 = [
+    ["HTML5", "CSS3", "javascript"],
+    ["PHP","Node.js", "SQL", "Python", "Firebase"]
+];
+
+console.log(tecnologia1[0][1]);
