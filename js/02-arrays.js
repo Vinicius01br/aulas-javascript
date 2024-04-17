@@ -21,3 +21,4 @@ const tecnologia1 = [
 ];
 
 console.log(tecnologia1[0][1]);
+console.log( tecnologia1[1][3]);
