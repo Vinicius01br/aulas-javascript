@@ -29,7 +29,8 @@ for(let i = 0; i <alunos.length; i++){
 
 //Loop exclusivo do JS para arrays: for/of
 /*for( const aluno of alunos){
-    console.log(aluno)};*/
+    console.log(aluno)
+};*/
 
 
 // Loop exclusivo do JS para objeto: for/in
