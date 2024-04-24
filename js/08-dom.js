@@ -34,3 +34,30 @@ console.log(subtitulos[0]);
 
 const variosElementos = document.querySelectorAll("p, a, p, b, #teste, xyz");
 console.log(variosElementos);
+/*Modificando o Dom:
+Podemos alterar contéudo, tags, estilos, criar elementos,
+remover elementos etc */
+legenda.textContent = "Imagem do modelo de objetos do documento";
+sobreFront.innerHTML = "<1>Front-end</i>";
+// Alteração de estilos inline (CSS in JS)
+backend.style.color = "red";
+backend .style. textAlign = "center";
+
+//aplicação de classes CSS via JavaScript
+titulo.classList.add("destaque");
+const listDeEditores = [
+    {
+        nome:"Visual studio code",
+        finalidade:"Desenvolvimento web em Geral";
+    };
+
+    {
+        nome:"Android Studio",
+        finalidade:"Desenvolvimento de aplicações Android";
+    };
+
+    {
+        nome:"Xcode",
+        finalidade:"Desenvolvimento de aplicações IOS";
+    }
+]
