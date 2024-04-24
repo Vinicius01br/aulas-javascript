@@ -50,7 +50,7 @@ console.log(somar(2.5, 8.9));
 let preco = 5000;
 let desconto = preco * 0.10; //10%
 let precofinal = preco - desconto;
-function formatarValor(valor) {
+function formatarValor(valor,) {
     return new Intl.NumberFormat("pt-br", {
         style: "currency",
         currency: "BRL"

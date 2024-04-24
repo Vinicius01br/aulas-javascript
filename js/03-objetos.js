@@ -1,4 +1,4 @@
-`use strict`;   
+`use strict`;
 
 //Declarando um objeto
 
@@ -19,13 +19,13 @@ console.log(
 );
 
 const carro = {
-   marca:"Civic",
-   modelo:"zrv",
-   ano: 2024,
-   portas: 4,
-   cor:"azul",
-   opcionais:["ar-condicionado", "Vidros elétricos","alarme"]
-    
+    marca: "Civic",
+    modelo: "zrv",
+    ano: 2024,
+    portas: 4,
+    cor: "azul",
+    opcionais: ["ar-condicionado", "Vidros elétricos", "alarme"]
+
 };
 
 console.log(
@@ -35,11 +35,11 @@ console.log(
 //Objeto com array e outro objeto
 const pessoa = {
     nome: "Chapolin Colorado",
-    idade:20,
-    telefones:["11-40028922", "11-9666-555"],
-    medidasFisicas:{
-        peso:85,
-        altura:1.85,
+    idade: 20,
+    telefones: ["11-40028922", "11-9666-555"],
+    medidasFisicas: {
+        peso: 85,
+        altura: 1.85,
     }
 };
 
@@ -57,13 +57,13 @@ const livros = [
     },
 
     {
-        titulo:"Crônicas de Nárnia",
-        autor:"c.s. Lewis",
+        titulo: "Crônicas de Nárnia",
+        autor: "c.s. Lewis",
     },
 
     {
-        titulo:"Cronicas de Olam",
-        autor:"L.L Wurlitzer",
+        titulo: "Cronicas de Olam",
+        autor: "L.L Wurlitzer",
     },
 ];
 
