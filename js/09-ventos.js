@@ -37,5 +37,20 @@ botao.addEventListener("click",function(){
     divContainer.classList.toggle("noturno");
     /*Usamos toggle para alternar entre os estados
     da classe (aplicada e não aplicada)*/
+    /*DESAFIOS!!!*/
+   
+    /* Aplicar um efetio de mudança de cores suave*/
+    /* Fazer o botão mudar de texto e troca para texto "Desativado"
+    Conforme o que estiver acontecendo*/
+    
+
+
 });
- 
+
+pagina.style.animation = "animation";
+pagina.style.transition = "2";
+const boton = "#noturno";
+boton.addEventListener(`click`, function(){
+
+});
+
