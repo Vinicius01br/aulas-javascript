@@ -45,19 +45,49 @@ backend .style. textAlign = "center";
 
 //aplicação de classes CSS via JavaScript
 titulo.classList.add("destaque");
-const listDeEditores = [
+const listaDeEditores = [
     {
-        nome:"Visual studio code",
-        finalidade:"Desenvolvimento web em Geral";
-    };
+        nome:"Visual Studio Code",
+        finalidae: "Desenvolvimento web em geral"
+    },
 
     {
         nome:"Android Studio",
-        finalidade:"Desenvolvimento de aplicações Android";
-    };
+        finalidae: "Desenvolvimento em aplicações  Android"
+    },
 
     {
         nome:"Xcode",
-        finalidade:"Desenvolvimento de aplicações IOS";
+        finalidae: "Desenvolvimento de aplicações IOS"
     }
-]
+];
+
+const lista = document.querySelector(".lista");
+console.log(lista);
+
+/* Percorrer o array de listaDeEditores,
+criar os itens <li> com o conteúdo do Arrar e adiciona-los
+a lista HTML.*/
+
+// for(variavel/constante de acesso of arrayComDadosQueQueremosAcessar){}
+for(const editor of listaDeEditores){
+    console.log(editor.nome);
+   const item =  document.createElement("li")
+   item.innerHTML = `<b>${editor.nome}</b>: ${editor.finalidae}`;
+   
+   lista.appendChild(item);
+
+};
+
+//Etapa 1: criar elemento <li>
+//Etapa 2: adicionar conteúdo ao novo elemento
+// Etapa 3: adicionar o elemento a lista <ol>
+
+/* Criando/configurando atributos HTML via JS*/
+
+const linksDeReferencia = document.querySelectorAll(".referencias a");
+console.log(linksDeReferencia);
+for( const link of linksDeReferencia){
+    console.log(link);
+    link.setAttribute("target", "_black",)
+};
