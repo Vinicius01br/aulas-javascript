@@ -46,11 +46,14 @@ botao.addEventListener("click",function(){
 
 
 });
+pagina.style.transition = "2s";
+divContainer.style.transition = "2s";
 
-pagina.style.animation = "animation";
-pagina.style.transition = "2";
-const boton = "#noturno";
-boton.addEventListener(`click`, function(){
-
-});
-
+/*Sobre o dublo sinal de igual ==
+eo triplo sinal de igual ===
+== IGUALDADE (considera somente valor)
+=== IGUALDADE ESTRITA (considera valor e tipo de dado)*/
+let a = 10;
+let b = "10"; //true (verdadeiro)
+console.log(a == b);// false(falso)
+console.log(a === b);
